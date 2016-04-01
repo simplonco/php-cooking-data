@@ -1,6 +1,6 @@
 # Cuisinons des données avec PHP (Solutions)
 
-# Dictionnaire
+## Dictionnaire
 
 ```php
     $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
@@ -9,7 +9,7 @@
 
 Le résultat est alors un tableau contenant tous les mots.
 
-## Exercices
+### Exercices
 
 * Combien de mots contient ce dictionnaire ?
 
