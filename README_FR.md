@@ -1,5 +1,7 @@
 # Cuisinons des données avec PHP !
 
+![Cooking time](cooking-time.jpg)
+
 ## Dictionnaire
 
 Commencez par télécharger un dictionnaire de la langue française puis chargez le dans votre code :
