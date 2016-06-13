@@ -4,6 +4,7 @@
 
 First download a dictionary of the French language and then load it in your code:
 
+
 ```php
     $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
     $dico = explode("\n", $string);
