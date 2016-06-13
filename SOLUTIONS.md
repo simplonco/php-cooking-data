@@ -1,5 +1,7 @@
 # Cooking data with PHP (Solutions)!
 
+![Omelette au Fromage](omelette-fromage.jpg)
+
 ## Dictionary
 
 ```php
