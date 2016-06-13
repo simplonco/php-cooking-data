@@ -5,8 +5,8 @@
 Commencez par télécharger un dictionnaire de la langue française puis chargez le dans votre code :
 
 ```php
-    $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
-    $dico = explode("\n", $string);
+$string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
+$dico = explode("\n", $string);
 ```
 
 Le résultat est alors un tableau contenant tous les mots.
@@ -24,9 +24,9 @@ Le résultat est alors un tableau contenant tous les mots.
 Télécharger le top100 des films visionnés au États-Unis sur la plateforme iTunes.
 
 ```php
-    $string = file_get_contents("films.json", FILE_USE_INCLUDE_PATH);
-    $brut = json_decode($string, true);
-    $top = $brut["feed"]["entry"]; # liste de films
+$string = file_get_contents("films.json", FILE_USE_INCLUDE_PATH);
+$brut = json_decode($string, true);
+$top = $brut["feed"]["entry"]; # liste de films
 ```
 
 ### Exercices
@@ -34,10 +34,10 @@ Télécharger le top100 des films visionnés au États-Unis sur la plateforme iT
 * Afficher le top10 des films sous cette forme :
 
 ```
-    1 Mission: Impossible - Rogue Nation
-    2 …
-    …
-    10 …
+1 Mission: Impossible - Rogue Nation
+2 …
+…
+10 …
 ```
 
 * Quel est le classement du film « Gravity » ?

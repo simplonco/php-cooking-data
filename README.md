@@ -6,8 +6,8 @@ First download a dictionary of the French language and then load it in your code
 
 
 ```php
-    $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
-    $dico = explode("\n", $string);
+$string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
+$dico = explode("\n", $string);
 ```
 
 The result is an array containing all the words.
@@ -25,9 +25,9 @@ The result is an array containing all the words.
 Download the top 100 movies viewed in the United States on the iTunes platform.
 
 ```php
-    $string = file_get_contents("movies.json", FILE_USE_INCLUDE_PATH);
-    $brut = json_decode($string, true);
-    $top = $brut["feed"]["entry"]; # list of movies
+$string = file_get_contents("movies.json", FILE_USE_INCLUDE_PATH);
+$brut = json_decode($string, true);
+$top = $brut["feed"]["entry"]; # list of movies
 ```
 
 ### Exercices
@@ -35,10 +35,10 @@ Download the top 100 movies viewed in the United States on the iTunes platform.
 * Display the top 10 movies in this form:
 
 ```
-    1 Mission: Impossible - Rogue Nation
-    2 …
-    …
-    10 …
+1 Mission: Impossible - Rogue Nation
+2 …
+…
+10 …
 ```
 
 * What is the ranking of the movie "Gravity"?
